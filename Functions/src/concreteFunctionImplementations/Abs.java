@@ -67,7 +67,7 @@ public class Abs extends FunctionOneParameter
     public Set<Double> getZeroOfFunc(double leftBound, double rightBound)
     {
         Set<Double> tmp = m_func.getZeroOfFunc();
-        Set<Double> result = new HashSet<>();
+        Set<Double> result = new HashSet<>(); 
         for(Double d : tmp)
         {
             double dv = d.doubleValue();
